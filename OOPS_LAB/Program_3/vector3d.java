@@ -16,7 +16,7 @@ class vector{
         double sumOfSquare = Math.pow(this.x, 2)+Math.pow(this.y, 2)+Math.pow(this.z, 2);
 
         double ans = Math.sqrt(sumOfSquare);
-        System.out.println("\nMagnitu of vector "+ans);
+        System.out.println("\nMagnitude of vector "+ans);
     }
 }
 

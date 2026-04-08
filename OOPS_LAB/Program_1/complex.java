@@ -4,24 +4,24 @@ class ComplexNumber{
     private int real;
     private int imaginary;
 
-    public ComplexNumber()
+    ComplexNumber()
     {
         real=0;
         imaginary=0;
     }
 
-    public ComplexNumber(int rel, int imagina)
+    ComplexNumber(int rel, int imagina)
     {
         real=rel;
         imaginary=imagina;
     }
 
-    public void add(ComplexNumber c1, ComplexNumber c2)
+    void add(ComplexNumber c1, ComplexNumber c2)
     {
         this.real=c1.real+c2.real;
         this.imaginary=c1.imaginary+c2.imaginary;
     }
-    public void display()
+    void display()
     {
         if(imaginary>=0)
         {

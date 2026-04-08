@@ -35,6 +35,8 @@
 *.out
 *.app
 
+.vscode
+
 ### Java ###
 # Compiled class file
 *.class
